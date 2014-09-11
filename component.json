@@ -1,0 +1,10 @@
+{
+  "name": "require-global",
+  "version": "0.0.1",
+  "description": "A fine way to require global libs in an async and smooth",
+  "dependencies": {
+    "timoxley/scriptloader": "*"
+  },
+  "scripts": [ "index.js" ],
+  "main": "index.js"
+}
