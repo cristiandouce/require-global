@@ -2,13 +2,13 @@
  * Module dependencies.
  */
 
-var load = require('loadscript');
+var load = require('scriptloader');
 
 /**
  * Expose `requireGlobal`
  */
 
-module.exports = requireGlobal;
+module.exports = requireg;
 
 /**
  * Load global `source` with optional
@@ -20,7 +20,7 @@ module.exports = requireGlobal;
  * @public
  */
 
-function globalRequire(source, namespace, callback) {
+function requireg(source, namespace, callback) {
   if ('function' === typeof namespace) {
     callback = namespace;
     namespace = null;
